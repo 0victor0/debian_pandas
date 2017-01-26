@@ -1,8 +1,3 @@
-'''
-Debian and pandas are two great tastes to go great together. They just take
-forever to build from scratch, so here is this base image. Will build as new
-versions of Debian and pandas are released.
-'''
 FROM debian:8.6
 
 LABEL version="0.1.0" description="Debian with pandas for base images"
